@@ -1,0 +1,83 @@
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+    &::before{
+        position: absolute;
+        width: 1200px;
+        height: 1200px;
+        top: -280px;
+        left: 50%;
+        margin-left: -600px;
+        content: "";
+        background: transparent url(../../asset/images/trongdong.png) no-repeat center center;
+        background-size: 100% auto;
+        opacity: 0.3;
+        z-index: 1;
+    }
+    .container{
+        position: relative;
+        z-index: 2;
+    }
+    .logo{
+       img{
+            margin: 0 auto;
+            width: 120px;
+       }
+    }
+    a{
+        &:hover{
+            cursor: pointer;
+            color: #fea724;
+            span{
+                color: #fea724;
+            }
+        }
+    }
+    h2{
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fea724;
+    }
+    h3{
+        text-transform: uppercase;
+        font-family: UVNVan_B;
+    }
+    .connect-with-us{
+        div{
+            background: white;
+            border-radius: 10px;
+            
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 7px 0;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+            
+            img{
+                width: 25px;
+                margin-right: 5px;
+            }
+            span{
+                color: #764802;
+            }
+        }
+    }
+    .line{
+        width: 40px;
+        background: white;
+        height: 4px;
+    }
+    .footer-bottom{
+        border-top: 1px solid white;
+        padding-top: 20px;
+        text-align: center;
+    }
+}

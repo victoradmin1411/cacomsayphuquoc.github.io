@@ -1,0 +1,55 @@
+.banner{
+    width: 100%;
+    position: relative;
+    background-image: url(../../asset//images/background-banner.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+
+    .image img{
+        height: 100%;
+        width: auto;
+        max-height: 500px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 60px;
+            color: #fea724;
+            line-height: 50px;
+        }
+        h3{
+            font-size: 40px;
+        }
+        h2, h3{
+            text-transform: uppercase;
+        }
+        .line{
+            width: 100%;
+            height: 4px;
+            background: rgb(254,167,36);
+            background: linear-gradient(90deg, rgba(254,167,36,1) 0%, rgba(0,0,0,1) 100%);
+        }
+        p{
+            margin-top: 20px;
+            font-family: UVNNhatKy_R;
+        }
+        
+        button{
+            text-transform: uppercase;
+            border: 2px solid #fea724;
+            padding: 10px 40px;
+            color: #fea724;
+            margin-top: 20px;
+
+            &:hover{
+                cursor: pointer;
+                background: #fea724;
+                color: #fff;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: UVNNhatKy_B, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "UVNSaigon_B";
+  src: url(./asset/fonts/UVNSaigon_B.TTF);
+}
+@font-face {
+  font-family: "UVNNhatKy_R";
+  src: url(./asset/fonts/UVNNhatKy_R.TTF);
+}
+@font-face {
+  font-family: "UVNNhatKy_B";
+  src: url(./asset/fonts/UVNNhatKy_B.TTF);
+}
+@font-face {
+  font-family: "UVNVan_B";
+  src: url(./asset/fonts/UVNVan_B.TTF);
+}

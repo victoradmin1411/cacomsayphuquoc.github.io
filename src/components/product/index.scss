@@ -1,0 +1,31 @@
+.item-product{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px #88888824;
+
+    img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .item-content{
+        padding: 20px;
+    }
+    .info{
+        font-family: UVNNhatKy_R;
+        min-height: 150px;
+    }
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        border-radius: 20px;
+        padding: 8px 0;
+        background-color: #fea724;
+        color: #fff;
+        width: 150px;
+    }
+}
