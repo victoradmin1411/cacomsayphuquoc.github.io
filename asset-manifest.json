@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9318848d.css",
+    "main.js": "/static/js/main.dce75699.js",
+    "static/js/453.56f46472.chunk.js": "/static/js/453.56f46472.chunk.js",
+    "static/media/img-banner-1.png": "/static/media/img-banner-1.602b996df08b349bd7a3.png",
+    "static/media/contactus-background.jpg": "/static/media/contactus-background.46015f43709637ed3c5a.jpg",
+    "static/media/trongdong.png": "/static/media/trongdong.a0152b542657235ec396.png",
+    "static/media/chon_va_thu_hoach.jpg": "/static/media/chon_va_thu_hoach.64ba1f6880c35e1b5bac.jpg",
+    "static/media/anahotline.gif": "/static/media/anahotline.70ba68573f5548115ceb.gif",
+    "static/media/banner-1.jpg": "/static/media/banner-1.5ee4d8fb133d1d90ae18.jpg",
+    "static/media/kho-ca-com-2.jpg": "/static/media/kho-ca-com-2.72648a4938a6ce7f3cfc.jpg",
+    "static/media/UVNSaigon_B.TTF": "/static/media/UVNSaigon_B.c83d5a6fed2aa773203c.TTF",
+    "static/media/UVNNhatKy_R.TTF": "/static/media/UVNNhatKy_R.eb8e56c476d7e63782b9.TTF",
+    "static/media/UVNNhatKy_B.TTF": "/static/media/UVNNhatKy_B.771b35f27fc9bcdbe4fb.TTF",
+    "static/media/UVNVan_B.TTF": "/static/media/UVNVan_B.4ee77a98f55d65ce90f9.TTF",
+    "static/media/background-banner.jpeg": "/static/media/background-banner.2c25bbdced5113d00b26.jpeg",
+    "static/media/request-a-call.png": "/static/media/request-a-call.876f143517cc836009be.png",
+    "static/media/map.png": "/static/media/map.9cd98cdf6cc619102a9b.png",
+    "static/media/tiktok.png": "/static/media/tiktok.507ef6a82f69698fdd57.png",
+    "index.html": "/index.html",
+    "main.9318848d.css.map": "/static/css/main.9318848d.css.map",
+    "main.dce75699.js.map": "/static/js/main.dce75699.js.map",
+    "453.56f46472.chunk.js.map": "/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9318848d.css",
+    "static/js/main.dce75699.js"
+  ]
+}
