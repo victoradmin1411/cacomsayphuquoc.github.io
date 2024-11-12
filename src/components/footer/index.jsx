@@ -62,7 +62,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom mt-4">
-                    Công Ty TNHH Xuất Nhập Khẩu Cá Cơm Sấy Thành Phước.
+                    Công Ty TNHH Thủy Hải Sản Đông Nguyễn
                     Trụ Sở:320 A Nguyễn Văn Cừ, Phu Phố 8, P.An Thới, TP. Phú Quốc, tỉnh Kiên Giang
                     <br />Website: https://cacomsaythanhphuoc.vn
                     <br />

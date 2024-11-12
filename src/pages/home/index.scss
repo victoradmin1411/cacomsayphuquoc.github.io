@@ -4,7 +4,18 @@
          font-size: 60px;   
          font-family: UVNNhatKy_B;
         }
+    
     }
+    .product img {
+        height: 300px; /* Điều chỉnh chiều cao theo mong muốn */
+        width: 100%; /* Đảm bảo hình ảnh chiếm hết chiều rộng của phần tử */
+        object-fit: cover; /* Giữ đúng tỷ lệ và cắt phần thừa nếu cần */
+    }
+    .procedure img {
+        width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng của khung */
+        height: 100%; /* Đảm bảo chiếm toàn bộ chiều cao của khung */
+        object-fit: cover; /* Giữ đúng tỷ lệ của hình ảnh và cắt phần thừa nếu cần */
+      }
     
     .contact-content{
         // background-color: #FBAB7E;
@@ -18,6 +29,7 @@
         .container {
             img{
                 max-height: 340px;
+                object-fit: cover
             }
         }
         .contact-info{
