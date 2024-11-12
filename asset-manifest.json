@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9318848d.css",
-    "main.js": "/static/js/main.dce75699.js",
+    "main.css": "/static/css/main.349d8997.css",
+    "main.js": "/static/js/main.344e34a2.js",
     "static/js/453.56f46472.chunk.js": "/static/js/453.56f46472.chunk.js",
+    "static/media/sanpham3.png": "/static/media/sanpham3.a84b2f7608a285d60d0f.png",
+    "static/media/quytrinh3.png": "/static/media/quytrinh3.ff25927e5e96f728d121.png",
+    "static/media/sampham23.png": "/static/media/sampham23.efda44855a380ad99772.png",
+    "static/media/quytrinh2.png": "/static/media/quytrinh2.5bc4521e9a15b9f382ca.png",
+    "static/media/quytrinh1.png": "/static/media/quytrinh1.42a7d215718486941aa1.png",
     "static/media/img-banner-1.png": "/static/media/img-banner-1.602b996df08b349bd7a3.png",
     "static/media/contactus-background.jpg": "/static/media/contactus-background.46015f43709637ed3c5a.jpg",
     "static/media/trongdong.png": "/static/media/trongdong.a0152b542657235ec396.png",
-    "static/media/chon_va_thu_hoach.jpg": "/static/media/chon_va_thu_hoach.64ba1f6880c35e1b5bac.jpg",
     "static/media/anahotline.gif": "/static/media/anahotline.70ba68573f5548115ceb.gif",
     "static/media/banner-1.jpg": "/static/media/banner-1.5ee4d8fb133d1d90ae18.jpg",
     "static/media/kho-ca-com-2.jpg": "/static/media/kho-ca-com-2.72648a4938a6ce7f3cfc.jpg",
@@ -19,12 +23,12 @@
     "static/media/map.png": "/static/media/map.9cd98cdf6cc619102a9b.png",
     "static/media/tiktok.png": "/static/media/tiktok.507ef6a82f69698fdd57.png",
     "index.html": "/index.html",
-    "main.9318848d.css.map": "/static/css/main.9318848d.css.map",
-    "main.dce75699.js.map": "/static/js/main.dce75699.js.map",
+    "main.349d8997.css.map": "/static/css/main.349d8997.css.map",
+    "main.344e34a2.js.map": "/static/js/main.344e34a2.js.map",
     "453.56f46472.chunk.js.map": "/static/js/453.56f46472.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9318848d.css",
-    "static/js/main.dce75699.js"
+    "static/css/main.349d8997.css",
+    "static/js/main.344e34a2.js"
   ]
 }
