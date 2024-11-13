@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './index.scss';
 import Logo from '../../asset/images/logo.png';
 import Hotline from '../../asset/images/anahotline.gif'
 
 
 export const Header = () => {
+    const [open, setOpen] = useState(false)
     return (
         <header className="app-header">
             <div className="top-header">
@@ -35,18 +36,22 @@ export const Header = () => {
                         <p className="text-center">Chuyên cung cấp sỉ & lẻ cá cơm sấy</p>
                     </div>
                     <div className="hotline">
-                        <img src={Hotline} alt="" />
+                        <div>
+                            <img src={Hotline} alt="hotline" />
+                        </div>
                         <div>
                             <p className="text font-bold">Hotline</p>
                             <p className="phone font-bold">0915767665</p>
                         </div>
                     </div>
+                    <button className={`menu-mobile ${open && 'open'}`} onClick={()=>{setOpen(!open)}}>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </button>
                 </div>
             </div>
-            {/* <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1> */}
-            <div className="header">
+            <div className={`header ${open && 'visibile'}`}>
             <div className="container">
                 <nav>
                     <ul>

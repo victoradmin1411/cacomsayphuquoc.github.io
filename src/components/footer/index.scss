@@ -20,11 +20,32 @@
     .container{
         position: relative;
         z-index: 2;
+        @media screen and (max-width: 639px) {
+            text-align: center;
+
+            .grid{
+                &>div{
+                    margin-top: 20px;
+                }
+            }
+        }
     }
     .logo{
+        @media screen and (max-width: 1023px) and (min-width: 768px) {
+            display: none;
+        }
        img{
             margin: 0 auto;
             width: 120px;
+
+            @media screen and (max-width: 767px) and (min-width: 640px) {
+                margin-left: 30px;
+            }
+       }
+       h2{
+        @media screen and (max-width: 767px) and (min-width: 640px) {
+            text-align: left;
+        }
        }
     }
     a{
@@ -44,6 +65,10 @@
     h3{
         text-transform: uppercase;
         font-family: UVNVan_B;
+
+        @media screen and (max-width: 639px) {
+            margin-bottom: 10px;
+        }
     }
     .connect-with-us{
         div{
@@ -74,6 +99,11 @@
         width: 40px;
         background: white;
         height: 4px;
+
+        @media screen and (max-width: 639px) {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
     }
     .footer-bottom{
         border-top: 1px solid white;

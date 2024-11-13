@@ -10,7 +10,7 @@ export const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
-                <div className="grid grid-cols-4 gap-4">
+                <div className="grid xl:grid-cols-4 xl:gap-4 lg:grid-cols-3 lg:gap-3 md:grid-cols-3 md:gap-3 sm:grid-cols-2 sm:gap-6">
                     <div className="logo">
                         <img src={Logo} alt="logo" />
                         <h2 className="text-center">cá cơm sấy</h2>
@@ -62,8 +62,8 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-bottom mt-4">
-                    Công Ty TNHH Thủy Hải Sản Đông Nguyễn
-                    Trụ Sở:320 A Nguyễn Văn Cừ, Phu Phố 8, P.An Thới, TP. Phú Quốc, tỉnh Kiên Giang
+                    Công Ty TNHH Thủy Hải Sản Đông Nguyễn.
+                    Trụ Sở: 320 A Nguyễn Văn Cừ, Phu Phố 8, P.An Thới, TP. Phú Quốc, tỉnh Kiên Giang
                     <br />Website: https://cacomsaythanhphuoc.vn
                     <br />
                     Điện Thoại: 0915.767.665

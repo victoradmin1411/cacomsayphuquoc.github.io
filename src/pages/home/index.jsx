@@ -69,7 +69,7 @@ export const HomePage = () => {
             <div className="product mt-16 mb-16">
                 <h2 className="text-center mb-6">Sản Phẩm</h2>
                 <div className="container">
-                    <div className="grid grid-cols-3 gap-5">
+                    <div className="grid lg:grid-cols-3 lg:gap-5 md:grid-cols-2 md:gap-4">
                         {products.map((p) => (<Product key={p.id} image={p.img} title={p.title} desc={p.desc} />))}
 
                     </div>
@@ -78,7 +78,7 @@ export const HomePage = () => {
             <div className="procedure mb-16">
                 <h2 className="text-center mb-6">Quy Trình</h2>
                 <div className="container">
-                    <div className="grid grid-cols-3 gap-5">
+                    <div className="grid lg:grid-cols-3 lg:gap-5 md:grid-cols-2 md:gap-4">
                         {procedures.map((p) => (<Procedure key={p.id} img={p.img} title={p.title} content={p.desc} />))}
                     </div>
                 </div>

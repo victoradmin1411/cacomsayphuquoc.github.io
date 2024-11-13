@@ -6,11 +6,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 0;
-
-    .image img{
-        height: 100%;
-        width: auto;
-        max-height: 500px;
+    .image {
+        display: flex;
+        align-items: center;
+        img{
+            height: 100%;
+            width: auto;
+            max-height: 500px;
+            @media screen and (max-width:1025px){
+                height: auto;
+            }
+            
+        }
+        
+    }
+    .grid{
+        @media screen and (max-width:767px){
+            display: block;
+            div {
+                width: 100%;
+                justify-content: center;
+            }
+        } 
     }
     .content{
         display: flex;
@@ -19,9 +36,21 @@
             font-size: 60px;
             color: #fea724;
             line-height: 50px;
+            @media screen and (max-width:1025px) and (min-width: 769px) {
+                font-size: 50px;
+            }
+            @media screen and (max-width:768px){
+                font-size: 40px;
+            }
         }
         h3{
             font-size: 40px;
+            @media screen and (max-width:1025px) and (min-width: 631px) {
+                font-size: 30px;
+            }
+            @media screen and (max-width:630px){
+                font-size: 26px;
+            }
         }
         h2, h3{
             text-transform: uppercase;
@@ -35,6 +64,9 @@
         p{
             margin-top: 20px;
             font-family: UVNNhatKy_R;
+            @media screen and (max-width:630px) and (min-width: 500px) {
+                font-size: 13px;
+            }
         }
         
         button{
